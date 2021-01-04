@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    background: rgb(76, 125, 230);
+}
+
+header {
+    background: rgba(0, 0, 0, 0.651);
+    color: rgb(76, 125, 230);
+}
+
+.bordered-card {
+    border: 2px solid black;
+}
+
+.bordered-card p,
+.bordered-card a,
+.radios,
+.labels
+{
+    font-size: 1.3rem;
+}
+
+.question-card {
+    border: 2px solid black;
+}
