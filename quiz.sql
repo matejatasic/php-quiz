@@ -6,10 +6,10 @@ GO
 CREATE TABLE questions (
     question_id INT(11) NOT NULL,
     question_title VARCHAR(255) NOT NULL,
-    PRIMARY KEY(questoin_id) 
+    PRIMARY KEY(question_id) 
 ); 
 
-CREATE TABLE dbname.dbo.TABLEN (
+CREATE TABLE choices (
     choice_id INT(11) NOT NULL,
     question_id INT(11) NOT NULL,
     is_correct TINYINT(4) NOT NULL,
